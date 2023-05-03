@@ -103,6 +103,7 @@ li>a:hover {
 }
 .btn>.button:hover {
     color: #F95353;
+    border: 1px solid #F95353;
     background-color: #2B2344;
 }
 /*------- hero-section----*/
