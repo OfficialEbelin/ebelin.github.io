@@ -409,4 +409,8 @@ a >i {
         align-items: center;
         justify-content: center;
     }
+    .skill-container {
+        height: 60px;
+        width: 300px;
+    }
 }    
