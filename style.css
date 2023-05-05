@@ -410,7 +410,11 @@ a >i {
         justify-content: center;
     }
     .skill-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: normal;
         height: 60px;
-        width: 300px;
+        width: 150px;
+
     }
 }    
