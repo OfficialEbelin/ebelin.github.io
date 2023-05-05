@@ -337,7 +337,7 @@ a >i {
 
 /*-------------TABLET MEDIA QUERIES SECTION------*/
 
-@media screen and (max-width:  768px) {
+@media screen and (max-width:  820px) {
      ul {
         display: none;
     }
@@ -354,10 +354,13 @@ a >i {
         text-align: center;
         justify-content: center;
     }
+    .floating-img {
+        display: none;
+    }    
 }
 
     /*-------------MOBILE MEDIA QUERIEDS------------*/
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     ul, .btn {
         display: none;
     }
