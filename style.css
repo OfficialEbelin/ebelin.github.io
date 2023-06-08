@@ -290,12 +290,13 @@ a >i {
     color: #fff;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 60px;
 }
 .services-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 120px 0px;
+    padding: 20px 0px 0px 0px;
     justify-content: center;
 
 }
@@ -329,11 +330,11 @@ a >i {
     background-color: #1D1730;
 }
 .project-wraper {
-    display:  grid;
-    gap: 5px;
-    grid-template-columns: auto auto auto;
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 100%;
-    padding-top: 40px;
+    padding : 40px;
     align-items: center;
     justify-content: center;
 }
@@ -346,9 +347,10 @@ a >i {
 .project-container {
     width: 320px;
     height: 380px;
-    margin: 10px;
+    margin: 5px;
     background-color: #2B2344;
-    
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;    
 }
  /*----------CONTACT FORM  SECTION--------------*/
 .contact-section {
@@ -383,25 +385,24 @@ a >i {
 }
 
 .contact-info-container {
-    width: 30%;
+    width: 400px;
     height: auto;
     padding: 10px;
+    margin : 10px;    
 }
 .contact-form-container {
-    width: 60%;
+    width: 600px;
     height: auto;
     padding: 10px;
-    margin-right: 0px;    
+    margin : 10px;    
 }
 .contact-form-wraper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    text-decoration: none;
-    width: 90%;
-    margin: 0px;
-    padding-top: 40px;
+    justify-content: center;
+    text-decoration: none; 
+    padding : 40px 40px;
 }
  
 .input-box {
@@ -415,29 +416,13 @@ a >i {
     border-radius: 10px ;
     border: 1px solid #adabab;
 }
+
+
 #input-box {
     color: #fff;
     width: 100%;
     height: 200px;
     padding: 10px;
-    margin: 6px 0px;
-    background-color: #2B2344;
-    border-radius: 10px ;
-    border: 1px solid #adabab;
-}
-.contact-address {
-    display: flex;
-    gap: 10px;
-    width: 100%;
-    align-items: center; 
-     
-}
-.contact-address div >.input-box {
-    color: #fff;
-    width: 340px;
-    height: 50px;
-    padding: 10px;
-    font-size: 16px;
     margin: 6px 0px;
     background-color: #2B2344;
     border-radius: 10px ;
@@ -453,7 +438,7 @@ a >i {
     height: auto;
     width: 100%;
     padding: 50px 0px;
-    background-color: #1D1730;
+    background-color: #0e091b;
 }
 .fotter-content >p {
     color: #ffffff81;
@@ -489,6 +474,32 @@ a >i {
         justify-content: normal;
         height: 60px;
         max-width: 150px; 
+    }
+    .contact-form-wraper {
+        display: block;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contact-info-container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact-form-container {
+        width: 100%;
+        padding: 0px;
+        margin : 40px 0px 0px 0px;    
+    }    
+    .project-thumbnail {
+        max-width: 400px;
+        height: 240px;
+    }
+    .project-container {
+        max-width: 400px;
+        height: 370px;
+        margin: 10px;
+        padding: 0px;
+        background-color: #2B2344;
     }
 }
 
@@ -554,5 +565,20 @@ a >i {
         justify-content: normal;
         height: 60px;
         max-width: 250px; 
+    }
+    .contact-form-wraper {
+        display: block;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contact-info-container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact-form-container {
+        width: 100%;
+        padding: 0px;
+        margin: 40px 0px 0px 0px;
     }
 }    
