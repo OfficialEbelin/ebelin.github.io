@@ -117,14 +117,13 @@ li>a:hover {
     color: #F95353;
     font-family: 'Playfair Display', serif;
 }
-.hero-section {
-
+.hero-section { 
     height: auto;
     width: 100%;
     color: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #1D1730;
+    background-color: #1D1730; 
 }
 .profile-photo {
     height: auto;
@@ -136,13 +135,12 @@ li>a:hover {
     align-items: center;
     justify-content: space-evenly;
 }
-.hero-containner {
-
+.hero-containner { 
     height: auto;
     width: 500px;
 }
-.hero-containner2 {
-
+.hero-containner2 { 
+    position: relative;
     height: auto;
     width: 500px;
     margin-bottom: 30px;
@@ -156,12 +154,15 @@ li>a:hover {
 .get-connected {
     padding: 15px 20px;
     background-color: #F95353;
-    border-radius: 5px;
-
+    border-radius: 5px; 
 }
 .btn2 {
     margin: 30px 7px 5px 0px;
     text-decoration: none;
+}
+.btn2>.get-connected:hover {
+    background-color: #2B2344 ;
+    border: 1px solid #F95353;
 }
 .contact-button {
     padding: 15px 20px;
@@ -176,8 +177,8 @@ li>a:hover {
 }
 .floating-img {
     position: absolute;
-    top: 150px;
-    right:0px;
+    top: 0px;
+    right:-70px;
 }
 /*-------------SOCIAL LINKS ------------*/
 .social-media-cotainner {
@@ -282,6 +283,7 @@ a >i {
     color: #fff;
     height: auto;
     width: 100%;
+    padding: 60px 0px;
     background-color: #1D1730;
 }
 .services-heading {
@@ -318,9 +320,133 @@ a >i {
     background-color: #F95353;
     transform: translateY(-40px);
 }
+/*---------- Project SECTION--------------*/
+.project-section {
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #1D1730;
+}
+.project-wraper {
+    display:  grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.project-thumbnail {
+    width: 320px;
+    height: 240px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.project-container {
+    width: 320px;
+    height: 380px;
+    margin: 10px;
+    background-color: #2B2344;
+    
+}
+ /*----------CONTACT FORM  SECTION--------------*/
+.contact-section {
+    color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 50px 10px;
+    background-color: #1D1730;
+}
+.info-wrapper  {
+    display: flex;  
+    align-items: center; ; 
+} 
+.info-wrapper div >h4 {
+    padding: 0px;
+} 
+.contact-info-flaot {
+    float: left;
+    margin: 20px;
+} 
+.little-text {
+    color: #999898;
+    font-size: 14px;
+}
+.info-wrapper div >i {
+    padding: 20px;
+    font-size: 24px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #F95353;
+}
+
+.contact-info-container {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+}
+.contact-form-container {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    margin-right: 0px;    
+}
+.contact-form-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 90%;
+    margin: 0px;
+    padding-top: 40px;
+}
  
-
-
+.input-box {
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 6px 0px;
+    background-color: #2B2344;
+    border-radius: 10px ;
+    border: 1px solid #adabab;
+}
+#input-box {
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin: 6px 0px;
+    background-color: #2B2344;
+    border-radius: 10px ;
+    border: 1px solid #adabab;
+}
+.contact-address {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center; 
+     
+}
+.contact-address div >.input-box {
+    color: #fff;
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 6px 0px;
+    background-color: #2B2344;
+    border-radius: 10px ;
+    border: 1px solid #adabab;
+}
+.form-btn >.button:hover {
+    background-color: #2B2344;
+    border: 1px solid #ec3737;
+} 
 /*----------FOTTER SECTION--------------*/
 .fotter-section {
     color: #ffffffc5;
@@ -357,6 +483,13 @@ a >i {
     .floating-img {
         display: none;
     }    
+    .skill-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: normal;
+        height: 60px;
+        max-width: 150px; 
+    }
 }
 
     /*-------------MOBILE MEDIA QUERIEDS------------*/
@@ -417,7 +550,6 @@ a >i {
         align-items: flex-start;
         justify-content: normal;
         height: 60px;
-        max-width: 150px;
-
+        max-width: 150px; 
     }
 }    
