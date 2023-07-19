@@ -52,8 +52,6 @@ header {
     background-color: #1D1730;
 }
 .logo >a {
-    display: flex;
-    align-items: center;
     color: #fff;
     margin-bottom: 10px;
     letter-spacing: 3px;
